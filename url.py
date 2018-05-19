@@ -3,8 +3,8 @@ import sys
 import importlib
 importlib.reload(sys)
 
-import handlers.index
+import handlers.userHandler
 
 url = [
-    (r'/', handlers.index.IndexHandler),
+    (r'/', handlers.userHandler.UserHandler),
 ]
